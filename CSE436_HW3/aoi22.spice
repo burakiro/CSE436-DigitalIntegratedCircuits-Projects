@@ -1,0 +1,45 @@
+* SPICE3 file created from /home/burakir0/Desktop/HW3Integrated/aoi22.ext - technology: scmos
+
+** SOURCE/DRAIN TIED
+M1000 y b y Gnd nfet w=0.96u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+** SOURCE/DRAIN TIED
+M1001 y a y Gnd nfet w=0.96u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+** SOURCE/DRAIN TIED
+M1002 y c y Gnd nfet w=0.96u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1003 a_n16_7# d y w_n37_n1# pfet w=1.56u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1004 a_n16_7# a vdd w_n37_n1# pfet w=1.56u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1005 vdd b a_n16_7# w_n37_n1# pfet w=1.56u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1006 y c a_n16_7# w_n37_n1# pfet w=1.56u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+** SOURCE/DRAIN TIED
+M1007 y d y Gnd nfet w=0.96u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+C0 d w_n37_n1# 0.15fF
+C1 a_n16_7# b 0.03fF
+C2 c y 0.03fF
+C3 w_n37_n1# vdd 0.08fF
+C4 d y 0.03fF
+C5 y vdd 0.25fF
+C6 y w_n37_n1# 0.04fF
+C7 a w_n37_n1# 0.15fF
+C8 w_n37_n1# b 0.15fF
+C9 c a_n16_7# 0.03fF
+C10 a y 0.03fF
+C11 d a_n16_7# 0.03fF
+C12 y b 0.03fF
+C13 w_n37_n1# a_n16_7# 0.17fF
+C14 c w_n37_n1# 0.15fF
+C15 y Gnd 3.53fF
+C16 a_n16_7# Gnd 0.92fF
+C17 vdd Gnd 1.47fF
+C18 d Gnd 0.73fF
+C19 c Gnd 0.73fF
+C20 b Gnd 0.73fF
+C21 a Gnd 0.73fF
+C22 w_n37_n1# Gnd 2.97fF

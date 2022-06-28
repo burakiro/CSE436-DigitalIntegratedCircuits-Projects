@@ -1,0 +1,22 @@
+* SPICE3 file created from /home/burakir0/Desktop/HW3Integrated/nand2gate.ext - technology: scmos
+
+M1000 y a vdd w_n22_13# pfet w=0.84u l=0.36u
++  ad=0p pd=0u as=0p ps=0u
+M1001 y b a_1_n11# Gnd nfet w=0.96u l=0.36u
++  ad=0p pd=0u as=0p ps=0u
+M1002 vdd b y w_n22_13# pfet w=0.84u l=0.36u
++  ad=0p pd=0u as=0p ps=0u
+M1003 a_1_n11# a gnd Gnd nfet w=0.96u l=0.36u
++  ad=0p pd=0u as=0p ps=0u
+C0 vdd w_n22_13# 0.12fF
+C1 b w_n22_13# 0.15fF
+C2 y vdd 0.03fF
+C3 y b 0.04fF
+C4 w_n22_13# a 0.15fF
+C5 y w_n22_13# 0.07fF
+C6 gnd Gnd 0.40fF
+C7 y Gnd 0.30fF
+C8 b Gnd 0.37fF
+C9 a Gnd 0.37fF
+C10 vdd Gnd 0.39fF
+C11 w_n22_13# Gnd 0.87fF

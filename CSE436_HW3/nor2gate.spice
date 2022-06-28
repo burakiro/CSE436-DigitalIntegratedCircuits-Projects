@@ -1,0 +1,23 @@
+* SPICE3 file created from /home/burakir0/Desktop/HW3Integrated/nor2gate.ext - technology: scmos
+
+M1000 a_1_13# a vdd w_n12_6# pfet w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1001 y a gnd Gnd nfet w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1002 gnd b y Gnd nfet w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1003 y b a_1_13# w_n12_6# pfet w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+C0 y b 0.02fF
+C1 b w_n12_6# 0.11fF
+C2 y w_n12_6# 0.06fF
+C3 y gnd 0.13fF
+C4 vdd w_n12_6# 0.06fF
+C5 a b 0.13fF
+C6 a w_n12_6# 0.11fF
+C7 gnd Gnd 0.51fF
+C8 y Gnd 0.24fF
+C9 vdd Gnd 0.47fF
+C10 b Gnd 0.26fF
+C11 a Gnd 0.26fF
+C12 w_n12_6# Gnd 0.66fF

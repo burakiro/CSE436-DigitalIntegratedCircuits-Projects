@@ -1,0 +1,61 @@
+magic
+tech scmos
+timestamp 1642188949
+<< polycontact >>
+rect 278 217 282 221
+rect 268 159 272 163
+rect 99 145 105 149
+rect 118 92 122 96
+rect 116 7 120 11
+rect 279 -15 284 -11
+rect 98 -85 102 -81
+rect 267 -83 271 -79
+<< metal1 >>
+rect 282 217 344 221
+rect 264 159 268 162
+rect 264 153 267 159
+rect 298 153 313 156
+rect 168 150 267 153
+rect 72 145 99 149
+rect 72 35 76 145
+rect -20 32 5 35
+rect -20 31 6 32
+rect 41 31 76 35
+rect -20 -82 -15 31
+rect 118 15 121 92
+rect 116 12 121 15
+rect 116 11 120 12
+rect 309 -12 313 153
+rect 284 -15 314 -12
+rect 320 -38 321 -34
+rect 340 -77 344 217
+rect -20 -85 98 -82
+rect 164 -83 267 -80
+rect 299 -80 344 -77
+rect -20 -86 -15 -85
+use inverter  inverter_0
+timestamp 1642185088
+transform 1 0 31 0 1 37
+box -31 -37 13 43
+use nor2gate  nor2gate_0
+timestamp 1642179566
+transform 1 0 270 0 1 160
+box -21 -44 49 61
+use nor2gate  nor2gate_1
+timestamp 1642179566
+transform 1 0 271 0 1 -73
+box -21 -44 49 61
+use andgate  andgate_1
+timestamp 1642188579
+transform 1 0 104 0 1 145
+box -22 -51 70 96
+use andgate  andgate_0
+timestamp 1642188579
+transform 1 0 102 0 1 -88
+box -22 -51 70 96
+<< labels >>
+rlabel metal1 -20 31 -20 35 3 d
+rlabel metal1 313 43 313 47 1 q
+rlabel metal1 344 42 344 46 7 q'
+rlabel metal1 118 52 118 60 1 clk
+<< end >>

@@ -1,0 +1,42 @@
+timestamp 1642188949
+version 8.3
+tech scmos
+style TSMC0.25um(tsmc25)from:t24j
+scale 1000 1 12
+resistclasses 4400 3500 1091000 1091000 1 4000 4000 70 70 70 70 30
+use inverter inverter_0 1 0 31 0 1 37
+use nor2gate nor2gate_0 1 0 270 0 1 160
+use nor2gate nor2gate_1 1 0 271 0 1 -73
+use andgate andgate_1 1 0 104 0 1 145
+use andgate andgate_0 1 0 102 0 1 -88
+node "m1_320_n38#" 0 18.318 320 -38 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 10 0 0 0 0 0 0 0 0
+node "a_267_n83#" 7 638.661 267 -83 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 325 222 0 0 0 0 0 0 0 0
+node "d" 9 1621.97 98 -85 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 1041 530 0 0 0 0 0 0 0 0
+node "q" 9 1326.65 279 -15 pc 0 0 0 0 0 0 0 0 0 0 20 18 0 0 815 436 0 0 0 0 0 0 0 0
+node "clk" 25 623.7 116 7 pc 0 0 0 0 0 0 0 0 0 0 32 32 0 0 282 190 0 0 0 0 0 0 0 0
+node "a_99_145#" 9 1152.38 99 145 pc 0 0 0 0 0 0 0 0 0 0 24 20 0 0 712 364 0 0 0 0 0 0 0 0
+node "a_268_159#" 7 669.975 268 159 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 343 234 0 0 0 0 0 0 0 0
+node "q'" 11 2442.52 278 217 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 1575 816 0 0 0 0 0 0 0 0
+cap "andgate_0/gnd" "andgate_0/a_n2_n19#" 46.174
+cap "nor2gate_1/a_n1_n25#" "nor2gate_1/a_1_n22#" 61.5653
+cap "nor2gate_1/gnd" "nor2gate_1/a_n1_n25#" 30.7827
+cap "andgate_1/a_n2_n19#" "andgate_1/gnd" 92.348
+cap "nor2gate_0/a_8_n44#" "nor2gate_0/a_n1_n25#" 1.21086
+cap "nor2gate_0/a_1_n22#" "nor2gate_0/a_n1_n25#" 46.174
+cap "nor2gate_0/a_n1_n25#" "nor2gate_0/gnd" 30.7827
+cap "a_268_159#" "nor2gate_0/a_8_n44#" 1.21086
+merge "andgate_1/a_14_n51#" "andgate_0/a_14_n51#" -410.501 0 0 0 0 0 0 0 0 0 0 -22 -26 0 0 -170 -116 0 0 0 0 0 0 0 0
+merge "andgate_0/a_14_n51#" "clk"
+merge "nor2gate_0/a_1_n22#" "nor2gate_1/a_8_n44#" -625.669 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 -334 -202 0 0 0 0 0 0 0 0
+merge "nor2gate_1/a_8_n44#" "q"
+merge "andgate_1/a_n2_n19#" "inverter_0/a_n9_n25#" -457.772 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 -216 -150 0 0 0 0 0 0 0 0
+merge "inverter_0/a_n9_n25#" "a_99_145#"
+merge "nor2gate_1/vdd" "m1_320_n38#" -12.392 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "nor2gate_1/a_n1_n25#" "andgate_0/a_53_n11#" -66.634 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 -6 -10 0 0 0 0 0 0 0 0
+merge "andgate_0/a_53_n11#" "a_267_n83#"
+merge "inverter_0/a_n14_n6#" "andgate_0/a_n2_n19#" -108.731 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 -21 -20 0 0 0 0 0 0 0 0
+merge "andgate_0/a_n2_n19#" "d"
+merge "nor2gate_0/a_n1_n25#" "andgate_1/a_53_n11#" 103.268 0 0 0 0 0 0 0 0 0 0 58 32 0 0 122 -14 0 0 0 0 0 0 0 0
+merge "andgate_1/a_53_n11#" "a_268_159#"
+merge "nor2gate_0/a_8_n44#" "nor2gate_1/a_1_n22#" -591.088 0 0 0 0 0 0 0 0 0 0 -8 -16 0 0 -344 -182 0 0 0 0 0 0 0 0
+merge "nor2gate_1/a_1_n22#" "q'"
